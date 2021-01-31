@@ -350,7 +350,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4938c99d95b934542a7a41ed9b0841b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3.5
+  speed: 4.4
   enemySound: {fileID: 1735987686}
   triggeredSound: {fileID: 5996965513693759546}
   whatIsPlayer:
