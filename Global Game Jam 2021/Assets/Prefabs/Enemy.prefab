@@ -216,6 +216,7 @@ GameObject:
   - component: {fileID: 5409496381881202046}
   - component: {fileID: 5990694484294086871}
   - component: {fileID: 5996965513693759546}
+  - component: {fileID: 6071697525503778528}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -350,7 +351,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4938c99d95b934542a7a41ed9b0841b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4.4
+  speed: 4.55
   enemySound: {fileID: 1735987686}
   triggeredSound: {fileID: 5996965513693759546}
   whatIsPlayer:
@@ -505,3 +506,12 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!170 &6071697525503778528
+AudioDistortionFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8609850126556643494}
+  m_Enabled: 1
+  m_DistortionLevel: 0.75

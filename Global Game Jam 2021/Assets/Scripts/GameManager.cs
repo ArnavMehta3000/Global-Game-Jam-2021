@@ -45,8 +45,26 @@ public class GameManager : MonoBehaviour
 
         //Get door
         exitDoor = GameObject.FindGameObjectWithTag("Door");
+
+        //Shuffle array
+        spawnPoints = Shuffle(spawnPoints);
     }
 
+    GameObject[] Shuffle(GameObject[] array)
+    {
+        GameObject temp;
+        for (int i = 0; i < array.Length; i++)
+        {
+            int rand = Random.Range(i, array.Length);
+            temp = array[rand];
+            array[rand] = array[i];
+            array[i] = temp;
+        }
+
+        return array;
+    }
+
+    
     public void Update()
     {
         if ((hasWon == false) && (collectedRelics == totalRelics))

@@ -9,14 +9,15 @@ public class LevelLoader : MonoBehaviour
     public GameObject loadingScreen;
     public Slider slider;
 
+
     private int currentScene;
 
 
     public void LoadLevel(int sceneIndex)
     {
+        PauseMenu.isPaused = false;
         StartCoroutine(LoadAsynchronously(sceneIndex));
     }
-
 
     public void SetLevel(int mapNumber)
     {
