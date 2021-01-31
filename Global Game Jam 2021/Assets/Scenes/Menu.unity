@@ -1026,6 +1026,7 @@ GameObject:
   - component: {fileID: 643786510}
   - component: {fileID: 643786509}
   - component: {fileID: 643786511}
+  - component: {fileID: 643786512}
   m_Layer: 5
   m_Name: Meltdown
   m_TagString: Untagged
@@ -1162,6 +1163,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   callTime: 1
+--- !u!95 &643786512
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 643786507}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d84cc7efc8f9a2944b12883ab3b40fe9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &651801760
 GameObject:
   m_ObjectHideFlags: 0
@@ -2132,7 +2152,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -56, y: -26.5}
+  m_AnchoredPosition: {x: -123, y: -26.5}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &823832360
@@ -4795,6 +4815,7 @@ GameObject:
   - component: {fileID: 1758640513}
   - component: {fileID: 1758640512}
   - component: {fileID: 1758640514}
+  - component: {fileID: 1758640515}
   m_Layer: 5
   m_Name: Maze
   m_TagString: Untagged
@@ -4931,6 +4952,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   callTime: 0.5
+--- !u!95 &1758640515
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1758640510}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a987b9582d1fc4c409c285adea9c5d80, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1770726323
 GameObject:
   m_ObjectHideFlags: 0
@@ -5056,7 +5096,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "- EXIT OPENS (   ) ONCE ALL RELICS ARE\n   COLLECTED  (   )"
+  m_text: "- EXIT OPENS (   ) ONCE ALL RELICS ARE\n   FOUND  (   )"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5702b4c0def068945bc19d99ec06c268, type: 2}
   m_sharedMaterial: {fileID: 842446695094632217, guid: 5702b4c0def068945bc19d99ec06c268, type: 2}
